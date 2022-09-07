@@ -32,7 +32,11 @@ namespace OnePayScedularAPI.Controllers
             
         };
 
+<<<<<<< HEAD
 private readonly ILogger<OnePayScedulController> _logger;
+=======
+        private readonly ILogger<OnePayScedulController> _logger;
+>>>>>>> ce34da393add9b2bf17e862490cf67bcc3626bd4
 
         public OnePayScedulController(ILogger<OnePayScedulController> logger)
         {
