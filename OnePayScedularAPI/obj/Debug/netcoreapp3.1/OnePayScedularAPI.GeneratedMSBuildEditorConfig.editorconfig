@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = OnePayScedularAPI
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\madhu\Gitstuffs\OnePayScedularAPI\
+=======
+build_property.ProjectDir = C:\Users\madhu\GitDemoRepo\OnePayScedularAPI\
+>>>>>>> 658af703ea22a2252bf647c613a4c114f30010ab
