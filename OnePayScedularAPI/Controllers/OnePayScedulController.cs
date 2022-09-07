@@ -20,6 +20,12 @@ namespace OnePayScedularAPI.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+        private static readonly string[] Summaries 2 = new[]
+        {
+            "one", "two", "chree", "four", "five", "six", "seven", "enight", "nine", "ten",
+            
+        };
+
         private readonly ILogger<OnePayScedulController> _logger;
 
         public OnePayScedulController(ILogger<OnePayScedulController> logger)
