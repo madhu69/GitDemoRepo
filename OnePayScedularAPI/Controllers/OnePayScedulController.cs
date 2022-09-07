@@ -26,7 +26,13 @@ namespace OnePayScedularAPI.Controllers
             
         };
 
-        private readonly ILogger<OnePayScedulController> _logger;
+        private static readonly string[] Summaries 3 = new[]
+        {
+            "A", "b", "c", "d", "e", "f", "g", "h", "i", "j",
+            
+        };
+
+private readonly ILogger<OnePayScedulController> _logger;
 
         public OnePayScedulController(ILogger<OnePayScedulController> logger)
         {
