@@ -1,0 +1,2 @@
+2022-01-03 16:02:30.7196||DEBUG|OnePayScheduler.Program|init main:Start App 01/03/2022 4:02:30 PM |url: |action: 
+2022-01-03 16:02:43.6325||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 

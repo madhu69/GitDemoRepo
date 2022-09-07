@@ -1,0 +1,4 @@
+2021-07-28 00:08:34.8775||DEBUG|OnePayScheduler.Program|init main:Start App 28-07-2021 00:08:34 |url: |action: 
+2021-07-28 00:10:10.2124||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-07-28 00:10:11.9541||INFO|OnePayScheduler.Controller.OnePayApp|No Data found for payment 28-07-2021 00:10:11 |url: |action: 
+2021-07-28 00:10:11.9541||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL |url: |action: 

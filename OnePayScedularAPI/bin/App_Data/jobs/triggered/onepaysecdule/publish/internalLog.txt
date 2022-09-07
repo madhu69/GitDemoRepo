@@ -1,0 +1,17 @@
+2021-03-01 15:07:12.2011 Info Message Template Auto Format enabled
+2021-03-01 15:07:12.2186 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:07:12.2746 Info Adding target FileTarget(Name=alldata)
+2021-03-01 15:07:12.2746 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-01 15:07:12.3133 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\suraj.kumthekar\Desktop\One Pay Scedular\Installemtn\k2-onepaysched\OnePayScheduler\bin\Debug\netcoreapp3.1\publish\nlog.config
+2021-03-01 15:07:12.6746 Info Configuring from an XML element in C:\Users\suraj.kumthekar\Desktop\One Pay Scedular\Installemtn\k2-onepaysched\OnePayScheduler\bin\Debug\netcoreapp3.1\publish\nlog.config...
+2021-03-01 15:07:12.6746 Info Message Template Auto Format enabled
+2021-03-01 15:07:12.6746 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:07:12.6930 Info Adding target FileTarget(Name=alldata)
+2021-03-01 15:07:12.7050 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-01 15:07:12.7050 Info Closing old configuration.
+2021-03-01 15:07:12.7421 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\suraj.kumthekar\Desktop\One Pay Scedular\Installemtn\k2-onepaysched\OnePayScheduler\bin\Debug\netcoreapp3.1\publish\nlog.config
+2021-03-01 15:07:12.9678 Info Shutdown() called. Logger closing...
+2021-03-01 15:07:12.9733 Info Closing old configuration.
+2021-03-01 15:07:12.9733 Info Logger has been closed down.
+2021-03-01 15:07:12.9733 Info AppDomain Shutting down. Logger closing...
+2021-03-01 15:07:12.9922 Info Logger has been shut down.

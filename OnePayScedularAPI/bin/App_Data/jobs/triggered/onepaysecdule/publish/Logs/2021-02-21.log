@@ -1,0 +1,115 @@
+2021-02-21 14:43:33.6394||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 14:44:50.1234||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 14:44:55.8172||ERROR|OnePayScheduler.Program|Stopped program because of exception System.InvalidOperationException: A public method named 'ConfigureProduction' or 'Configure' could not be found in the 'OnePayScheduler.Startup' type.
+   at Microsoft.AspNetCore.Hosting.StartupLoader.FindMethod(Type startupType, String methodName, String environmentName, Type returnType, Boolean required)
+   at Microsoft.AspNetCore.Hosting.StartupLoader.FindConfigureDelegate(Type startupType, String environmentName)
+   at Microsoft.AspNetCore.Hosting.StartupLoader.LoadMethods(IServiceProvider hostingServiceProvider, Type startupType, String environmentName)
+   at Microsoft.AspNetCore.Hosting.WebHostBuilderExtensions.<>c__DisplayClass3_0.<UseStartup>b__1(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Hosting.WebHost.EnsureStartup()
+   at Microsoft.AspNetCore.Hosting.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 64
+2021-02-21 14:59:47.6942||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 15:00:35.5786||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 15:02:31.0217||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 15:03:53.6349||ERROR|OnePayScheduler.Program|Stopped program because of exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Configuration.IConfiguration' while attempting to activate 'OnePayScheduler.Controller.OnePayApp'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 72
+2021-02-21 15:05:49.0204||DEBUG|OnePayScheduler.Program|init main 
+2021-02-21 15:49:09.2082||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 43
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 48
+2021-02-21 15:53:06.1298||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 43
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 48
+2021-02-21 15:57:36.7438||DEBUG|OnePayScheduler.Program|init main: Start Application/n2/21/2021 3:57:36 PM 
+2021-02-21 16:03:05.7345||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:03:05 PM 
+2021-02-21 16:03:31.1532||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:03:31 PM 
+2021-02-21 16:03:46.0738||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 43
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 49
+2021-02-21 16:07:14.0574||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:07:14 PM 
+2021-02-21 16:08:02.6430||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 43
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 51
+2021-02-21 16:13:29.6651||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:13:29 PM 
+2021-02-21 16:14:03.7785||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 40
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 35
+2021-02-21 16:16:22.1376||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:16:22 PM 
+2021-02-21 16:16:27.4537||INFO|OnePayScheduler.Controller.OnePayApp|enter log 
+2021-02-21 16:16:39.2713||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 40
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 35
+2021-02-21 16:19:29.4426||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:19:29 PM 
+2021-02-21 16:19:34.3093||INFO|OnePayScheduler.Controller.OnePayApp|enter log 
+2021-02-21 16:19:44.0821||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 40
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 35
+2021-02-21 16:23:32.9528||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:23:32 PM 
+2021-02-21 16:23:37.2688||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 16:25:17.7889||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:25:17 PM 
+2021-02-21 16:25:21.2376||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 16:25:54.0041||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 16:31:46.7444||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess 
+2021-02-21 19:10:08.7874||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:10:08 PM 
+2021-02-21 19:10:21.5568||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 19:10:29.1154||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 19:19:26.6921||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:19:26 PM 
+2021-02-21 19:19:31.0530||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 19:19:33.7733||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 19:27:38.5691||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:27:38 PM 
+2021-02-21 19:27:48.6655||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 19:27:51.5602||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:14:05.5473||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:14:05 PM 
+2021-02-21 20:14:12.4424||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 20:14:16.4218||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:21:17.7263||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:21:17 PM 
+2021-02-21 20:21:20.0293||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 20:21:23.3351||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:32:21.9277||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:32:21 PM 
+2021-02-21 20:32:24.7734||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 20:32:27.6320||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:36:13.5231||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:36:13 PM 
+2021-02-21 20:36:15.0437||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 20:36:16.9545||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:36:37.4085||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJUlJjvVY99yl2XBZtAO7J  
+2021-02-21 20:38:52.7895||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 20:39:15.2233||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJV4JjvVY99yl2igaWMNXa  
+2021-02-21 20:39:20.1316||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL 
+2021-02-21 21:12:38.7504||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:12:38 PM 
+2021-02-21 21:12:39.9287||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 21:13:04.0687||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:13:04 PM 
+2021-02-21 21:13:05.6451||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 21:15:32.8620||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:15:32 PM 
+2021-02-21 21:15:33.4443||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL 
+2021-02-21 21:16:17.6308||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 21:20:12.5699||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJVpJjvVY99yl215JWIVcm  
+2021-02-21 21:20:16.4243||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess 
+2021-02-21 21:20:25.5174||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJYKJjvVY99yl2LNOg8xSR  
+2021-02-21 21:20:25.5647||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL 

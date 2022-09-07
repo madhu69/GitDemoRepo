@@ -1,0 +1,47 @@
+2021-02-21 16:19:29.4426||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:19:29 PM |url: |action: 
+2021-02-21 16:19:34.3093||INFO|OnePayScheduler.Controller.OnePayApp|enter log |url: |action: 
+2021-02-21 16:19:44.0821||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 40
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 35|url: |action: 
+2021-02-21 16:23:32.9528||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:23:32 PM |url: |action: 
+2021-02-21 16:23:37.2688||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 16:25:17.7889||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 4:25:17 PM |url: |action: 
+2021-02-21 16:25:21.2376||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 16:25:54.0041||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 16:31:46.7444||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess |url: |action: 
+2021-02-21 19:10:08.7874||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:10:08 PM |url: |action: 
+2021-02-21 19:10:21.5568||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 19:10:29.1154||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 19:19:26.6921||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:19:26 PM |url: |action: 
+2021-02-21 19:19:31.0530||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 19:19:33.7733||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 19:27:38.5691||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 7:27:38 PM |url: |action: 
+2021-02-21 19:27:48.6655||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 19:27:51.5602||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:14:05.5473||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:14:05 PM |url: |action: 
+2021-02-21 20:14:12.4424||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 20:14:16.4218||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:21:17.7263||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:21:17 PM |url: |action: 
+2021-02-21 20:21:20.0293||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 20:21:23.3351||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:32:21.9277||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:32:21 PM |url: |action: 
+2021-02-21 20:32:24.7734||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 20:32:27.6320||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:36:13.5231||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 8:36:13 PM |url: |action: 
+2021-02-21 20:36:15.0437||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 20:36:16.9545||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:36:37.4085||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJUlJjvVY99yl2XBZtAO7J  |url: |action: 
+2021-02-21 20:38:52.7895||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 20:39:15.2233||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJV4JjvVY99yl2igaWMNXa  |url: |action: 
+2021-02-21 20:39:20.1316||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL |url: |action: 
+2021-02-21 21:12:38.7504||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:12:38 PM |url: |action: 
+2021-02-21 21:12:39.9287||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 21:13:04.0687||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:13:04 PM |url: |action: 
+2021-02-21 21:13:05.6451||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 21:15:32.8620||DEBUG|OnePayScheduler.Program|init main:Start App 2/21/2021 9:15:32 PM |url: |action: 
+2021-02-21 21:15:33.4443||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-02-21 21:16:17.6308||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 21:20:12.5699||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJVpJjvVY99yl215JWIVcm  |url: |action: 
+2021-02-21 21:20:16.4243||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  PaymentProcess |url: |action: 
+2021-02-21 21:20:25.5174||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  PaymentProcess : Payment Done for pi_1INJYKJjvVY99yl2LNOg8xSR  |url: |action: 
+2021-02-21 21:20:25.5647||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL |url: |action: 

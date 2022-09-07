@@ -1,0 +1,13 @@
+2021-03-01 13:18:59.8742||DEBUG|OnePayScheduler.Program|init main:Start App 3/1/2021 1:18:59 PM |url: |action: 
+2021-03-01 13:19:01.8620||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-03-01 13:19:03.7844||ERROR|OnePayScheduler.Program|Stopped program because of exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnePayScheduler.Controller.OnePayApp.GetdataFromSQL(String _StripeAPIKey) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Controller\OnePayApp.cs:line 34
+   at OnePayScheduler.Program.Main(String[] args) in C:\Users\suraj.kumthekar\Desktop\JOb\OnePayScheduler\Program.cs:line 34|url: |action: 
+2021-03-01 16:04:47.8726||DEBUG|OnePayScheduler.Program|init main:Start App 3/1/2021 4:04:47 PM |url: |action: 
+2021-03-01 16:05:00.3945||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-03-01 16:05:00.5807||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL |url: |action: 
+2021-03-01 16:05:20.4660||DEBUG|OnePayScheduler.Program|init main:Start App 3/1/2021 4:05:20 PM |url: |action: 
+2021-03-01 16:05:21.1609||INFO|OnePayScheduler.Controller.OnePayApp|Enter into  GetdataFromSQL |url: |action: 
+2021-03-01 16:05:21.1800||INFO|OnePayScheduler.Controller.OnePayApp|Exit into  GetdataFromSQL |url: |action: 
+2021-03-01 19:30:47.7415||DEBUG|OnePayScheduler.Program|init main:Start App 3/1/2021 7:30:47 PM |url: |action: 
+2021-03-01 19:53:31.5874||DEBUG|OnePayScheduler.Program|init main:Start App 3/1/2021 7:53:31 PM |url: |action: 
